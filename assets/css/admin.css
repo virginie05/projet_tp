@@ -1,0 +1,14 @@
+body{
+   background-color: #EBEAF0;
+}
+h2{
+  font-size: 16px;
+  font-style:oblique;
+}
+
+groupError{
+    color:red;
+}
+groupSucces{
+    color:green;
+}

@@ -1,0 +1,56 @@
+/*taille de la banniere d'inscription*/
+.en_tete{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    height:120px ;
+    width:100% ;
+    margin-bottom: 20px;
+}
+/*configuration de mon block couleur en haut de ma page inscription*/
+#header {
+    width: 60%;
+    height: 113px;
+    margin: 0  250px 44px;
+    padding: 0;
+    position: relative;
+}
+/* police du titre "cinelife" */
+#logo{
+    margin-top: 17%;
+    font-family: 'Metamorphous', cursive;
+    text-align:center;
+}
+#username_error, #username_success, #email_error ,#email_success, #password_confirm_error, #password_confirm_success{
+    display: none;
+}
+#username_error, #email_error, #password_confirm_error, #errorMessage, #errorList, #groupError{
+    color:red;
+}
+#username_success, #email_success, #password_confirm_success, #successMessage, #groupSucces{
+    color:green;
+}
+#successMessage{
+    font-size: 16px;
+}
+/*placement du formulaire inscription sur la page*/
+.acount{
+    margin-top: 70px;
+}
+/*couleur et bordur du "hr"*/
+hr{
+    border: 1px #B9B9B9 solid;
+    border-style:ridge;
+}
+/*espace entre les label*/
+label{
+    margin: 5px;
+}
+/*placement du bouton "cree mon compte" de ma page inscription*/
+#button_compte{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+#date{
+    margin-top: 25px;
+}

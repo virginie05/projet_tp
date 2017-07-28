@@ -1,0 +1,56 @@
+body{
+    background-color: transparent;
+    background-image: url("../img/alien_bande_annonce.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 0px;
+}
+#video_arthur{
+  
+  width: 1000px;
+  height:555px;
+}
+#conexion{
+  margin-left: 8%;
+}
+#co_username{
+  width: 53%;
+  margin:4px;
+}
+#passwordUp{
+  width: 53%;
+  margin:4px;
+}
+#globalcontainer{
+  background-color:white;
+  color: black;
+  width: 88%;
+  margin-left: 82px;
+}
+.col-sm-offset-2 {
+    margin-left: 8%;
+}
+#commentaire{
+  width: 60%;
+}
+#bande_annonce_video_arthur{
+width:208px;
+height:117px;
+}
+hr{
+  border: 1px solid #b9b9b9;
+}
+footer{
+  background-color: black;
+}
+small{
+  color: grey;
+}
+i{
+color: #FECC00;
+}
+#jaune{
+  color:#FECC00;
+}
+

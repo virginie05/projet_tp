@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks -Multiviews
+RewriteEngine on
+RewriteRule ^accueil$ /index.php
+RewriteRule ^inscription$ /addUser.php
+RewriteRule ^actu$ /bande-annonce.php
+RewriteRule ^email$ /editEmail.php
+RewriteRule ^passe$ /editPassword.php
+RewriteRule ^navigation$ /navbar_modal.php
+</IfModule>

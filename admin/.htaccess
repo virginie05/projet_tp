@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks -Multiviews
+RewriteEngine on
+RewriteRule ^films$ /admin/indexAdmin.php
+RewriteRule ^groupe$ /admin/statusUtilisateur.php
+</IfModule>
+
+AuthUserFile /home/virgie/www/projet_tp/admin/.htpasswd
+AuthName "Veuillez entrer votre login et mot de passe."
+AuthType Basic
+Require valid-user

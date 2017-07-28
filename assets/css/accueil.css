@@ -1,0 +1,192 @@
+body{
+    background-color: transparent;
+    background-image: url("../img/alien.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 0px;
+
+}
+
+/*taille et placement de la bar de navigation*/
+.navbar-default{
+    margin-top: 11%;
+    width: 88%;
+    margin-left: 6%;
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #555;
+}
+a{
+    outline: 0;
+}
+/*marge du bouton connexion de ma navbar*/
+a#connexion{
+    padding-left: 280px;
+}
+/*marge du menu d'eroulant de l'utilisateur de la bar de navigation*/
+a.dropdown-toggle{
+    padding-right: 15%;
+}
+/*couleur des bouton liste déroulante de la bar de navigation*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #e7e7e7;
+    color: #555;
+}
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+/*placement de mon boutton me connecter sur la bar de navigation*/
+#conexion{
+    padding-left: 70%;
+
+}
+
+/* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: red;
+    border-bottom-color: #777;
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: grey;
+}
+
+/* Version mobile, le menu devient une icône qui déroule une liste avec le menu en vertical */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-brand{
+    font-family: 'Metamorphous', cursive;
+}
+.connectError{
+    color: red;
+    display: none;
+}
+
+@media screen and  (max-width: 1298px) {
+    .navbar-default > .navbar-toggle{
+        float: left;
+    }
+}
+/*alignement du titre de la modal conexion*/
+.modal-title {
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+}
+/*alignement du contenu de la modal connexion*/
+.modal-body{
+    text-align: center;
+}
+/*taille et marge de met image "facebook" et "Twitter" dans la modal connexion*/
+.res-Image{
+    height: 40px;
+    margin: 7px;
+    width: 300px;
+}
+/*taille et marge des input de la modal connexion*/
+#co_username{
+    width: 53%;
+    margin:4px;
+}
+#passwordUp{
+    width: 53%;
+    margin:4px;
+}
+/*marge du boutton checkbox*/
+.checkbox_left{
+    margin: 6px;
+    margin-left: -33%;
+}
+#passe_oublie{
+    margin-left: 28%;
+}
+.btn-primary{
+    margin: 15px;
+    margin-left: -10px;
+}
+/*CAROUSEL*/
+/*configuration du texte dans le carousel*/
+.carousel-caption {
+    color: white; text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: bolder;
+    padding-right: 35%;
+    padding-bottom: 10%;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    left: 0px;
+}
+/*footer*/
+footer {
+    background: #222; 
+}
+footer .copyright-section {
+    background: #111;
+    padding: 30px 0; 
+}
+footer .copyright-section .logo {
+    max-width: 300px;
+    margin: 0 auto; 
+}
+footer .copyright-section .social-media {
+    margin-top: 30px; 
+}
+footer .copyright-section .social-media ul {
+    text-align: center; 
+}
+footer .copyright-section .social-media ul li a {
+    display: block;
+    color: #FC4700;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #FC4700; 
+}
+footer .copyright-section .social-media ul li a:hover {
+    background: #FC4700;
+    color: #fff; 
+}
+footer .copyright-section .copyright {
+    margin-top: 30px; 
+}
+footer .copyright-section .copyright p {
+    text-align: center;
+    color: #666; 
+}
+footer .demo-logo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #999;
+}
+footer .demo-logo strong{
+    color: red;
+}
+#color_text{
+    color: white;
+}
